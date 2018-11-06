@@ -1,6 +1,5 @@
 body {
     background-color: #fdfdfd;
-    font-family: 'Nobile', sans-serif;
 }
 
 /*----------NAVBAR---------*/
@@ -107,38 +106,16 @@ a {
 
 .top {
     padding-left: 12px;
+    text-align: center;
 }
 
 h1 {
     padding-top: 5%;
-    font-size: 5.5em;
+    font-size: 8.5em;
 }
 
 .jumbotron p {
-    font-size: 2em;
-}
-
-/* ---------ARROW----------- */
-
-@keyframes jump { 0% { top: 0; } 50% { top: 50px; } 100% { top: 0; } }
-
-#arrow-down { 
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    animation: jump 5s infinite;
-}
-.fa-chevron-down {
-    line-height: 0px;
-    color: rgb(221, 218, 218);
-    font-size: 7.5em;
-    text-align: center;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    box-shadow: none;
-    background-color: transparent;
-    margin-top: 10vh;
+    font-size: 3em;
 }
 
 /*------------ABOUT----------*/
@@ -201,10 +178,6 @@ h2 {
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
-}
-
-.card:hover {
-    opacity: 1;
 }
 
 .card-title {
@@ -434,11 +407,6 @@ i {
 
 }
 
-i:hover {
-    color: #564F6F;
-
-}
-
 /*-----------MEDIA QUERIES----------*/
 
 @media (max-width: 768px) and (min-width: 375px) {
@@ -460,13 +428,11 @@ i:hover {
 
 @media (min-width: 992px) {
     .about-me-section {
-        background-image: url('../images/haley.jpg');
         background-position: center;
         background-size: cover;
         width: 100vw;
     }
     .skills-section {
-        background-image: url('../images/skills.jpg');
         background-position: center;
         background-size: cover;
         width: 100vw;
