@@ -93,7 +93,7 @@ a {
 
 /*----------JUMBOTRON----------*/
 
-.landing-view-section {
+#landing-view {
     background-attachment: fixed;
     background-image: url('images/landing.jpg');
     background-position: bottom;
@@ -111,11 +111,11 @@ a {
 
 h1 {
     padding-top: 5%;
-    font-size: 8.5em;
+    font-size: 6.3em;
 }
 
 .jumbotron p {
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 /*------------ABOUT----------*/
@@ -138,7 +138,7 @@ h2 {
 
 /*------------WORK----------*/
 
-.work-section {
+#work {
     background-attachment: fixed;
     background-image: url('images/desk.jpg');
     background-position: center;
@@ -149,6 +149,11 @@ h2 {
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
+}
+
+.card-body .row {
+    text-align: center;
+    padding-top: 10px;
 }
 
 .project-cards {
@@ -190,11 +195,11 @@ h2 {
     font-weight: bold;
 }
 
-#card-text {
+.card-body .card-text {
     font-size: 1.07em;
 }
 
-#desktop-icon {
+.desktop-icon {
     padding: 20px 0;
     border-radius: 50%;
     font-size: 34px;
@@ -203,13 +208,13 @@ h2 {
     line-height: 18px;
 }
 
-#github-icon {
+.github-icon {
     padding: 20px 0;
     border-radius: 50%;
     font-size: 36px;
     width: 54px;
     height: 54px;
-    line-height: 15px;
+    line-height: 14px;
 }
 
 .fa-desktop {
@@ -339,7 +344,7 @@ h2 {
 
 /*-------CONTACT-----------*/
 
-.contact-section {
+#contact {
     background-attachment: fixed;
     background-image: url('images/computer.jpg');
     background-position: left;
@@ -359,8 +364,8 @@ h2 {
     margin-left: -11px;
 }
 
-#contact-btn {
-    margin-left: -15px;
+.contact {
+    margin: 15px 0px 15px 0px;
 }
 
 /*-----------FOOTER----------*/
@@ -382,8 +387,7 @@ a {
     background-color: transparent;
 }
 
-.fab,
-.fas {
+.alignment {
     line-height: 2px;
 }
 
@@ -410,7 +414,7 @@ i {
 /*-----------MEDIA QUERIES----------*/
 
 @media (max-width: 768px) and (min-width: 375px) {
-    #work {
+    .scroll-work {
         width: 80%;
     }
     .fa-chevron-down {
@@ -419,20 +423,18 @@ i {
 }
 
 @media (max-width: 992px) {
-    .landing-view-section,
-    .work-section,
-    .contact-section {
+    .scroll {
         background-attachment: scroll;
     }
 }
 
 @media (min-width: 992px) {
-    .about-me-section {
+    #about-me {
         background-position: center;
         background-size: cover;
         width: 100vw;
     }
-    .skills-section {
+    #skills {
         background-position: center;
         background-size: cover;
         width: 100vw;
