@@ -132,7 +132,7 @@ h2 {
     text-transform: uppercase;
 }
 
-#about-p {
+.about-row .about-p {
     font-size: .8em;
 }
 
