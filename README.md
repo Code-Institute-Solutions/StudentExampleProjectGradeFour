@@ -1,8 +1,7 @@
 # Haley Schafer Portfolio
 Stream One Project: User Centric Frontend Development - Code Institute 
 
-This is my portfolio website to present to prospective employers. The portfolio highlights six projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. As I am bilingual, it has both an English and a French version.
-
+This is my portfolio website to present to prospective employers. The portfolio highlights six projects that cover a range of technologies, as well as including a bit about myself, my coding skills, and a contact form. 
 
 ## Demo
 A live demo can be found [here](https://code-institute-solutions.github.io/StudentExampleProjectGradeFour).
@@ -27,7 +26,7 @@ This site was tested across multiple browsers and on multiple mobile devices to 
 
 
 ## Deployment 
-This site is hosted using GitHub pages, deployed directly from the master branch.
+This site is hosted using GitHub pages, deployed directly from the master branch. The live site updates automatically each time there is a new push to the repository. You can `git clone` the code to run it locally on your machine.
 
 ## Credits
 
